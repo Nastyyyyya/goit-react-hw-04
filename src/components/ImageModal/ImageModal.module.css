@@ -1,0 +1,34 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: black;
+  color: white;
+  padding-bottom: 5px;
+  overflow: hidden;
+  width: 80%;
+}
+
+.content {
+  text-align: center;
+}
+
+.image {
+  width: 100%;
+  height: 75vh;
+  object-fit: cover;
+}
+
+body.modal-open {
+  overflow: hidden;
+}
